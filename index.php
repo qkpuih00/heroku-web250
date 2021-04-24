@@ -1,30 +1,38 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamic Everything PHP Page</title>
+    <link rel="stylesheet" href="styles/default.css">
 </head>
+
 <body>
-    <h1>php below</h1>
-    <?php 
-    $db_host = 'localhost';
-    $db_user = 'root';
-    $db_password = 'password';
-    $db_port = '3306';
-    $db_name = 'joyPHP';
-    
-    $conn = mysql_connect($db_host, $db_user, $db_password)
-        or die('Error connecting to mysql');
-    
-    //$db_name = 'epub';
-    mysql_select_db($db_name);
+    <!--<nav>
+    <a href="?p=contents/alpha.php">Alpha ||</a>
+    <a href="?p=contents/beta.php">Beta ||</a>
+    <a href="?p=contents/charlie.php">Charlie</a>
+    </nav>-->
 
-
-    
-    
-    
+    <!-- call menu.php-->
+    <?php
+        require_once "components/header.php";
     ?>
+
+    
+    <!--contents goes here -->
+        <?php
+            require_once "dynamic_everything_process.php";
+        ?>
+
+        
+    <footer>
+        <?php
+            require_once "components/footer.php"
+        ?>
+    </footer>
+    <script src="scripts/default.js"></script>
 </body>
 </html>

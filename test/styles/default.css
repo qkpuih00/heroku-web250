@@ -214,19 +214,6 @@ nav {
     color: white;
 }
 
-.toc_main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.toc_main a {
-    padding: 10px;
-    background-color: #6B9080;
-    margin: 10px;
-}
-
 /*footer begins*/
 footer {
     margin: auto;
