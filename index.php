@@ -18,7 +18,7 @@
 
     <!-- call menu.php-->
     <?php
-        require_once "components/header.php";
+        require_once "php_components/header.php";
     ?>
 
     
@@ -30,7 +30,7 @@
         
     <footer>
         <?php
-            require_once "components/footer.php"
+            require_once "php_components/footer.php"
         ?>
     </footer>
     <script src="scripts/default.js"></script>
