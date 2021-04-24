@@ -5,6 +5,7 @@
         <?php require_once 'process.php'; ?>
         <?php 
             //$mysqli = new mysqli('localhost', 'root', '', 'cars2') or die(mysql_error($mysqli));
+            require_once 'database_connection.php'
             $result = $mysqli->query("SELECT * FROM inventory");
         ?>
 

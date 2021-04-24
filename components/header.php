@@ -9,7 +9,7 @@
             <button class="submenu-btn">Project</button>
                 <div class="submenu-container">
                     <a href="?p=contents/brand.php">Brand</a>
-                    <a href="?p=sam_used_cars/sam_used_cars.php">Sam Used Cars</a>
+                    <a href="?p=contents/sam_home.php">Sam Used Cars</a>
                     <a href="?p=contents/toc.php">Table of Contents</a>
                 </div>
         </div>
