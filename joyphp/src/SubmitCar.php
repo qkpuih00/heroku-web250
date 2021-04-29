@@ -30,11 +30,11 @@ echo ($query. "<br>");
 
 include 'db.php';
 
-  echo 'Connected successfully to mySQL. <BR>'; 
+  echo 'Connected successfully to mySQL. <br>'; 
   
 //select a database to work with
 $mysqli->select_db("test");
-   Echo ("Selected the test database. <br>");
+   echo ("Selected the test database. <br>");
 
 /* Try to insert the new car into the database */
 if ($result = $mysqli->query($query)) {
